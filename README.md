@@ -34,3 +34,5 @@ In your solution you must provide the following in your Github link account:
 
 ## UML Class Diagram
 ![image]()
+## Sample Output
+![image](https://github.com/DarylTManampan/ObserverPattern1/blob/main/SampleOutputOP.png)
