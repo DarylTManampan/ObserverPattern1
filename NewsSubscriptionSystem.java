@@ -1,8 +1,5 @@
-package Obs;
-
 public class NewsSubscriptionSystem {
     public static void main(String[] args) {
-
 
         NewsAgency newsAgency = new NewsAgency();
 
@@ -24,7 +21,7 @@ public class NewsSubscriptionSystem {
         newsAgency.subscribe(tres);
         newsAgency.subscribe(fourth);
 
-        System.out.println("\nSubscriber Breaking News Sports Update!\n");
+        System.out.println("\nSubscriber Breaking News Sports Update!");
         newsAgency.notifySubscribers("PVL: Alyssa Valdez returns with renewed passion for volleyball ", "November 16 2024", "Sports");
 
 
@@ -33,18 +30,19 @@ public class NewsSubscriptionSystem {
         newsAgency.unsubscribe(tres);
 
         //notify subscribers
-        System.out.println("\nSubscriber Breaking News Calamity Update!\n");
+        System.out.println("\nSubscriber Breaking News Calamity Update!");
         newsAgency.notifySubscribers("Metro Manila malls to offer free overnight parking for those affected by Pepito", "November 17 2024", "Calamity");
-
+        
+        //add Fifth
         Subscriber fifth = new Subscriber();
         fifth.setSubscriberName("Fifth");
 
         newsAgency.subscribe(fifth);
 
         //notify Subscribers
-        System.out.println("\nSubscriber Breaking News Entertainment Update!\n");
+        System.out.println("\nSubscriber Breaking News Entertainment Update!");
         newsAgency.notifySubscribers("STRAY KIDS are coming to set the Philippine stage on fire! " +
-                "\n\t\t\tStray Kids World Tour Concert <dominATE BULACAN> on November 23, 2024 at Philippine Arena", "August 14 2024", "Entertainment");
+                "\n\t\tStray Kids World Tour Concert <dominATE BULACAN> on November 23, 2024 at Philippine Arena", "August 14 2024", "Entertainment");
 
     }
 }
