@@ -33,6 +33,6 @@ In your solution you must provide the following in your Github link account:
 - Uploaded java codes for the solution.
 
 ## UML Class Diagram
-![image]()
+![image](https://github.com/DarylTManampan/ObserverPattern1/blob/main/ObserverUML.png)
 ## Sample Output
 ![image](https://github.com/DarylTManampan/ObserverPattern1/blob/main/SampleOutputOP.png)
